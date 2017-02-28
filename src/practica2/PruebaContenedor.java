@@ -10,7 +10,7 @@ public class PruebaContenedor {
         for (int i = 0; i < 10; i++) {
             time.startTime(i);
             System.out.println(i + " tiempo inicial : " + (double)time.getTime(i));
-            for (int j = 0; j < 10000; j++) {
+            for (long j = 0; j < (long)100000000; j++) {
                 
             }
             time.stopTime(i);
@@ -39,12 +39,16 @@ public class PruebaContenedor {
             time.set(i, Long.sum(System.currentTimeMillis(), -time.get(i)));
         }
         
-        private double meanTime() {
-            double totalTime = .0;
+        private long totalTime() {
+            long total = 0;
             for (Long timeLapse : time) {
-                totalTime += (double)timeLapse;
+                total += timeLapse;
             }
-            return totalTime/(double)(time.size()*1000);
+            return total;
+        }
+        
+        private double meanTime() {
+            return (double) totalTime()/(time.size()*1000);
         }
     }
 }
