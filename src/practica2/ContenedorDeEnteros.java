@@ -62,7 +62,7 @@ public class ContenedorDeEnteros {
         return true;
     }
 
-    private boolean buscar(int e) {
+    public boolean buscar(int e) {
         return false;
     }
     
