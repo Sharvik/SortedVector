@@ -171,10 +171,6 @@ public class PruebaContenedor {
         // Promedio total de la prueba
         outFile.newLine();
         outFile.write("   [+] PROMEDIO TOTAL DE INSERCIÓN : " + time.meanResult());
-        
-        // TODO Eliminar esto solo es para probar esta función
-        outFile.close();
-        dataFile.close();
     }
 
     private static void extractionTest(RandomAccessFile dataFile, 
@@ -394,7 +390,7 @@ public class PruebaContenedor {
         // Calcula el incremento de tiempo desde que se inició una marca de tiempo
         // determinada
         private void stopTime(int i) {
-            time.set(i, Long.sum(System.currentTimeMillis(), -time.get(i)));
+            time.set(i, System.currentTimeMillis() -time.get(i));
         }
         
         // Devuelve el total de todas las marcas de tiempo actuales

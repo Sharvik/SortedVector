@@ -5,172 +5,209 @@
 Ejecutando prueba de las PRIMERAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 59 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 50 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 61 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 55 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 50 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 76 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 49 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 17 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 16 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 14 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 16 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 15 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 PRIMERAS operaciones : 54.1 ms
+   [+] Tiempo medio de inserción de las 10.000 PRIMERAS operaciones : 15.3 ms
 
 Ejecutando prueba de las SEGUNDAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 49 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 51 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 17 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 16 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 15 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 16 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 17 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 17 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 18 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 18 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 19 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 SEGUNDAS operaciones : 47.4 ms
+   [+] Tiempo medio de inserción de las 10.000 SEGUNDAS operaciones : 16.8 ms
 
 Ejecutando prueba de las TERCERAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 48 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 19 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 19 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 20 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 20 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 20 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 20 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 21 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 21 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 21 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 22 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 TERCERAS operaciones : 47.0 ms
+   [+] Tiempo medio de inserción de las 10.000 TERCERAS operaciones : 20.3 ms
 
 Ejecutando prueba de las CUARTAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 45 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 22 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 23 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 22 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 24 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 23 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 23 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 25 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 25 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 24 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 26 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 CUARTAS operaciones : 46.1 ms
+   [+] Tiempo medio de inserción de las 10.000 CUARTAS operaciones : 23.7 ms
 
 Ejecutando prueba de las QUINTAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 49 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 46 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 27 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 25 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 26 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 27 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 27 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 27 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 28 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 28 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 29 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 28 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 QUINTAS operaciones : 46.8 ms
+   [+] Tiempo medio de inserción de las 10.000 QUINTAS operaciones : 27.2 ms
 
 Ejecutando prueba de las SEXTAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 52 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 48 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 29 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 31 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 29 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 29 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 30 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 30 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 30 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 30 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 31 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 32 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 SEXTAS operaciones : 46.8 ms
+   [+] Tiempo medio de inserción de las 10.000 SEXTAS operaciones : 30.1 ms
 
 Ejecutando prueba de las SÉPTIMAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 51 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 49 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 45 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 31 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 34 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 32 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 33 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 33 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 33 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 34 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 34 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 35 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 34 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 SÉPTIMAS operaciones : 46.8 ms
+   [+] Tiempo medio de inserción de las 10.000 SÉPTIMAS operaciones : 33.3 ms
 
 Ejecutando prueba de las OCTAVAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 54 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 46 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 34 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 35 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 35 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 36 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 35 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 36 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 36 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 37 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 38 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 OCTAVAS operaciones : 46.8 ms
+   [+] Tiempo medio de inserción de las 10.000 OCTAVAS operaciones : 36.0 ms
 
 Ejecutando prueba de las NOVENAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 52 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 46 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 47 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 37 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 39 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 39 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 40 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 38 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 40 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 NOVENAS operaciones : 47.1 ms
+   [+] Tiempo medio de inserción de las 10.000 NOVENAS operaciones : 38.5 ms
 
 Ejecutando prueba de las ÚLTIMAS 10.000 inserciones : 
 -------------------------------------------------------------------
 
-   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 48 ms
-   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 45 ms
-   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 47 ms
-   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 46 ms
+   [+] Tiempo de inserción de las 1.000 PRIMERAS operaciones : 40 ms
+   [+] Tiempo de inserción de las 1.000 SEGUNDAS operaciones : 40 ms
+   [+] Tiempo de inserción de las 1.000 TERCERAS operaciones : 41 ms
+   [+] Tiempo de inserción de las 1.000 CUARTAS operaciones : 40 ms
+   [+] Tiempo de inserción de las 1.000 QUINTAS operaciones : 42 ms
+   [+] Tiempo de inserción de las 1.000 SEXTAS operaciones : 43 ms
+   [+] Tiempo de inserción de las 1.000 SÉPTIMAS operaciones : 43 ms
+   [+] Tiempo de inserción de las 1.000 OCTAVAS operaciones : 44 ms
+   [+] Tiempo de inserción de las 1.000 NOVENAS operaciones : 44 ms
+   [+] Tiempo de inserción de las 1.000 ÚLTIMAS operaciones : 43 ms
 
 
-   [+] Tiempo medio de inserción de las 10.000 ÚLTIMAS operaciones : 45.8 ms
+   [+] Tiempo medio de inserción de las 10.000 ÚLTIMAS operaciones : 42.0 ms
 
 
-   [+] PROMEDIO TOTAL DE INSERCIÓN : 47.470000000000006
+   [+] PROMEDIO TOTAL DE INSERCIÓN : 28.32
+
+
+######################################
+### Iniciando prueba de extracción ###
+######################################
+
+
+
+Ejecutando prueba de las PRIMERAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 40 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 33 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 33 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 31 ms
+
+   [+] Tiempo medio de extracción de las 10.000 PRIMERASoperaciones : 32.8 ms
+
+Ejecutando prueba de las SEGUNDAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 30 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 30 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 30 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 34 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 34 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 34 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 33 ms
+
+   [+] Tiempo medio de extracción de las 10.000 SEGUNDASoperaciones : 31.9 ms
+
+Ejecutando prueba de las TERCERAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 33 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 33 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 33 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 32 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 30 ms
+
+   [+] Tiempo medio de extracción de las 10.000 TERCERASoperaciones : 31.8 ms
+
+Ejecutando prueba de las CUARTAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 30 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 29 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 31 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 29 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 29 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 29 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 29 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 28 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 28 ms
+
+   [+] Tiempo medio de extracción de las 10.000 CUARTASoperaciones : 29.3 ms
+
+Ejecutando prueba de las QUINTAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 28 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 28 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 27 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 27 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 27 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 27 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 27 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 26 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 25 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 26 ms
+
+   [+] Tiempo medio de extracción de las 10.000 QUINTASoperaciones : 26.8 ms
+
+Ejecutando prueba de las SEXTAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 25 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 25 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 24 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 23 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 25 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 24 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 23 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 23 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 23 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 23 ms
+
+   [+] Tiempo medio de extracción de las 10.000 SEXTASoperaciones : 23.8 ms
+
+Ejecutando prueba de las SÉPTIMAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 22 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 22 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 22 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 22 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 22 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 21 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 21 ms   [+] Tiempo de extracción de las 1.000 OCTAVASoperaciones : 21 ms   [+] Tiempo de extracción de las 1.000 NOVENASoperaciones : 20 ms   [+] Tiempo de extracción de las 1.000 ÚLTIMASoperaciones : 20 ms
+
+   [+] Tiempo medio de extracción de las 10.000 SÉPTIMASoperaciones : 21.3 ms
+
+Ejecutando prueba de las OCTAVAS 10.000 extracciones : --------------------------------------------------------------------   [+] Tiempo de extracción de las 1.000 PRIMERASoperaciones : 20 ms   [+] Tiempo de extracción de las 1.000 SEGUNDASoperaciones : 19 ms   [+] Tiempo de extracción de las 1.000 TERCERASoperaciones : 20 ms   [+] Tiempo de extracción de las 1.000 CUARTASoperaciones : 20 ms   [+] Tiempo de extracción de las 1.000 QUINTASoperaciones : 18 ms   [+] Tiempo de extracción de las 1.000 SEXTASoperaciones : 19 ms   [+] Tiempo de extracción de las 1.000 SÉPTIMASoperaciones : 19 ms   [+] Tiempo de extracción de las 1.000 OC
