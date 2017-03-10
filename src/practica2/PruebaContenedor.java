@@ -241,7 +241,10 @@ public class PruebaContenedor {
                                     ContenedorDeEnteros sortedVec, 
                                     Time time) throws IOException {
         
-        int counter = 0;
+        // Sirve para ajustar las marcas de tiempos a insertar en la posición
+        // que le corresponde en cada iteración
+        int counter = 0;  
+        
         // Leemos de 10k en 10k hasta llegar a 100k elementos
         for(int i = 0; i < 10; i++) {
             outFile.write("Ejecutando prueba de las " + CHARCOUNT[i] + " 10.000 búsquedas : ");
@@ -314,7 +317,10 @@ public class PruebaContenedor {
                                        ContenedorDeEnteros sortedVec, 
                                        Time time) throws IOException {
         
+        // Sirve para ajustar las marcas de tiempos a insertar en la posición
+        // que le corresponde en cada iteración
         int counter = 0;
+        
         // Leemos de 10k en 10k hasta llegar a 100k elementos
         for(int i = 0; i < 10; i++) {
             outFile.write("Ejecutando prueba de las " + CHARCOUNT[i] + " 10.000 extracciones : ");
