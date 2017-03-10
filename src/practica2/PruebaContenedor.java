@@ -10,9 +10,9 @@ public class PruebaContenedor {
     // Vector de String constante para ser usada por los programas de test
     // para identificar en qué iteración de 10k elementos estamos extrayendo
     // los datos estadísticos de marca de tiempo
-    private static final String[] CHARCOUNT = {"primeras","segundas","terceras",
-                                            "cuartas","quintas","sextas","séptimas",
-                                            "octavas","novenas","útimas"};
+    private static final String[] CHARCOUNT = {"PRIMERAS","SEGUNDAS","TERCERAS",
+                                            "CUARTAS","QUINTAS","SEXTAS","SÉPTIMAS",
+                                            "OCTAVAS","NOVENAS","ÚLTIMAS"};
             
     public static void main(String[] args) throws IOException {
         // Inicializamos los marcadores de tiempo
@@ -26,13 +26,21 @@ public class PruebaContenedor {
         ContenedorDeEnteros sortedVec = new ContenedorDeEnteros(100000);
         
         // Iniciamos prueba de inserción
-        outFile.write("[+] Iniciando prueba de inserción : ");
+        outFile.write("#####################################");
+        outFile.newLine();
+        outFile.write("### Iniciando prueba de inserción ###");
+        outFile.newLine();
+        outFile.write("#####################################");
         outFile.newLine();
         outFile.newLine();        
         
         insertionTest(dataFile, outFile, sortedVec, time);
         time = new Time();  // Reseteamos el Tiempo para prepararlo para la 
                             // la siguiente prueba
+                        
+                            
+        // Colocamos el puntero del fichero de datos al principio
+        dataFile.seek(0);
 
         // Dejamos algunas líneas para separar un test de otro en el documento
         // de salida
@@ -42,14 +50,23 @@ public class PruebaContenedor {
         
         
         // Iniciamos la prueba de extracción
-        outFile.write("[+] Iniciando prueba de extracción : ");
+        outFile.write("######################################");
+        outFile.newLine();
+        outFile.write("### Iniciando prueba de extracción ###");
+        outFile.newLine();
+        outFile.write("######################################");
+        outFile.newLine();
+        outFile.newLine();        
         outFile.newLine();
         outFile.newLine();
         
         extractionTest(dataFile, outFile, sortedVec, time);
         time = new Time();  // Reseteamos el Tiempo para prepararlo para la 
                             // la siguiente prueba
-
+        
+        // Colocamos el puntero del fichero de datos al principio
+        dataFile.seek(0);
+        
         // Dejamos algunas líneas para separar un test de otro en el documento
         // de salida
         outFile.newLine();
@@ -58,7 +75,13 @@ public class PruebaContenedor {
         
         
         // Iniciamos la prueba de búsqueda exitosa
-        outFile.write("[+] Iniciando prueba de búsqueda exitosa : ");
+        outFile.write("############################################");
+        outFile.newLine();
+        outFile.write("### Iniciando prueba de búsqueda exitosa ###");
+        outFile.newLine();
+        outFile.write("############################################");
+        outFile.newLine();
+        outFile.newLine();        
         outFile.newLine();
         outFile.newLine();
         
@@ -76,7 +99,11 @@ public class PruebaContenedor {
         
         
         // Iniciamos la prueba de búsqueda no exitosa
-        outFile.write("[+] Iniciando prueba de búsqueda no exitosa : ");
+        outFile.write("###############################################");
+        outFile.newLine();
+        outFile.write("### Iniciando prueba de búsqueda no exitosa ###");
+        outFile.newLine();
+        outFile.write("###############################################");
         outFile.newLine();
         outFile.newLine();
         
@@ -98,38 +125,43 @@ public class PruebaContenedor {
         // Leemos de 10k en 10k hasta llegar a 100k elementos
         for(int i = 0; i < 10; i++) {
             outFile.write("Ejecutando prueba de las " + CHARCOUNT[i] + " 10.000 inserciones : ");
+            outFile.newLine();
             outFile.write("-------------------------------------------------------------------");
+            outFile.newLine();
+            outFile.newLine();
             int counter = 0;    // Contador para saber si hemos llegado a 1000 elementos
             time.startTime(counter);  // Comenzamos a contar el tiempo por cada 1000 elementos
             
             // Insertamos los enteros de datos.dat en el vector ordenado de 10k en 10k
-            for(int j = 0; j < 10000; j++) {
+            for(int j = 0; j <= 10000; j++) {
                 // Inserta los elementos del contenedor de 10k en 10k y comprueba que
                 // se añaden correctamente
-                if(!sortedVec.insertar(dataFile.readInt())) {
+                if((j < 10000) && (!sortedVec.insertar(dataFile.readInt()))) {
                     outFile.write("   [!] ¡Error! No se pudo insertar un elemento en el contenedor");
+                    outFile.newLine();
+                    outFile.newLine();
                 }
                 
                 // Colocamos una marca de tiempo por cada 1000 inserciones
-                if(j % 1000 == 0) {
+                if((j != 0) && (j % 1000 == 0)) {
                     // Detenemos el tiempo y extraemos su estadística por cada 1000 elementos
                     time.stopTime(counter);
-                    outFile.write("   [+] Tiempo de inserción de las 1.000 " + CHARCOUNT[j] 
-                                    + "operaciones : " + time.getTime(i) + " ms");
+                    outFile.write("   [+] Tiempo de inserción de las 1.000 " + CHARCOUNT[counter] 
+                                    + " operaciones : " + time.getTime(counter) + " ms");
+                    outFile.newLine();
                     counter++;
-                    if(counter < 10) {
+                    if(counter < 10)
                         time.startTime(counter);
-                    }
                 }
             }
             
             outFile.newLine();
             outFile.newLine();
-            
-            // Extraemos la estadística por cada 10k operaciones
+
+            // Resultado de la estadística por cada 10k operaciones
             time.meanTime();
             outFile.write("   [+] Tiempo medio de inserción de las 10.000 " + CHARCOUNT[i] 
-                           + "operaciones : " + time.getMeanTime(i)+ " ms");
+                           + " operaciones : " + time.getMeanTime(i)+ " ms");
             
             outFile.newLine();
             outFile.newLine();
@@ -138,8 +170,11 @@ public class PruebaContenedor {
         
         // Promedio total de la prueba
         outFile.newLine();
-        outFile.write("PROMEDIO TOTAL DE INSERCIÓN : " + time.meanResult());
-                
+        outFile.write("   [+] PROMEDIO TOTAL DE INSERCIÓN : " + time.meanResult());
+        
+        // TODO Eliminar esto solo es para probar esta función
+        outFile.close();
+        dataFile.close();
     }
 
     private static void extractionTest(RandomAccessFile dataFile, 
@@ -155,19 +190,19 @@ public class PruebaContenedor {
             time.startTime(counter);  // Comenzamos a contar el tiempo por cada 1000 elementos
             
             // Extraemos los enteros de datos.dat en el vector ordenado de 10k en 10k
-            for(int j = 0; j < 10000; j++) {
+            for(int j = 0; j <= 10000; j++) {
                 // Extrae los elementos del contenedor de 10k en 10k y comprueba que
                 // se eliminan correctamente
-                if(!sortedVec.extraer(dataFile.readInt())) {
+                if((j < 10000) && (!sortedVec.extraer(dataFile.readInt()))) {
                     outFile.write("   [!] ¡Error! No se pudo extraer un elemento del contenedor");
                 }
                 
                 // Colocamos una marca de tiempo por cada 1000 extracciones
-                if(j % 1000 == 0) {
+                if((j != 0) && (j % 1000 == 0)) {
                     // Detenemos el tiempo y extraemos su estadística por cada 1000 elementos
                     time.stopTime(counter);
-                    outFile.write("   [+] Tiempo de extracción de las 1.000 " + CHARCOUNT[j] 
-                                    + "operaciones : " + time.getTime(i) + " ms");
+                    outFile.write("   [+] Tiempo de extracción de las 1.000 " + CHARCOUNT[counter] 
+                                    + "operaciones : " + time.getTime(counter) + " ms");
                     counter++;
                     if(counter < 10) {
                         time.startTime(counter);
@@ -189,7 +224,9 @@ public class PruebaContenedor {
         
         // Promedio total de la prueba
         outFile.newLine();
-        outFile.write("PROMEDIO TOTAL DE EXTRACCIÓN : " + time.meanResult());
+        outFile.write("   [+] PROMEDIO TOTAL DE EXTRACCIÓN : " + time.meanResult());
+        
+        
     }
 
     private static void canFindTest(RandomAccessFile dataFile, 
@@ -222,11 +259,11 @@ public class PruebaContenedor {
                 }
                 
                 // Colocamos una marca de tiempo por cada 1000 búsquedas
-                if(j % 1000 == 0) {
+                if((j != 0) && (j % 1000 == 0)) {
                     // Detenemos el tiempo y extraemos su estadística por cada 1000 elementos
                     time.stopTime(counter);
-                    outFile.write("   [+] Tiempo de búsqueda exitosa de las 1.000 " + CHARCOUNT[j] 
-                                    + "operaciones : " + time.getTime(i) + " ms");
+                    outFile.write("   [+] Tiempo de búsqueda exitosa de las 1.000 " + CHARCOUNT[counter] 
+                                    + "operaciones : " + time.getTime(counter) + " ms");
                     counter++;
                     
                     // Iniciamos una nueva marca de tiempo siempre que 
@@ -286,11 +323,11 @@ public class PruebaContenedor {
                 }
                 
                 // Colocamos una marca de tiempo por cada 1000 búsquedas
-                if(j % 1000 == 0) {
+                if((j != 0) && (j % 1000 == 0)) {
                     // Detenemos el tiempo y extraemos su estadística por cada 1000 elementos
                     time.stopTime(counter);
-                    outFile.write("   [+] Tiempo de búsqueda no exitosa de las 1.000 " + CHARCOUNT[j] 
-                                    + "operaciones : " + time.getTime(i) + " ms");
+                    outFile.write("   [+] Tiempo de búsqueda no exitosa de las 1.000 " + CHARCOUNT[counter] 
+                                    + "operaciones : " + time.getTime(counter) + " ms");
                     counter++;
                     
                     // Iniciamos una nueva marca de tiempo siempre que 
