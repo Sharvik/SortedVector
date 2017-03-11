@@ -123,28 +123,4 @@ public class ContenedorDeEnteros {
         // No encuentra el elemento en todo el vector
         return false;
     }
-    
-    // TODO borrar después de comprobar que funciona        
-    private int insertBinarySearch(int e) {
-        int head = 0;
-        int tail = length -1 ;
-        int middle = 0;
-        
-        while(tail >= head) {
-            middle = (head + tail)/2;
-            
-            if(vector[middle] == e)
-                return -1;
-            
-            else if(vector[middle] < e)
-                head = middle + 1;
-            
-            else if(vector[middle] > e)
-                tail = middle - 1;
-        }
-        
-        
-        return middle;
-    }
-
 }
